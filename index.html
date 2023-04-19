@@ -12,52 +12,53 @@
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="content">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/accordion.html">Accordion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/tabs.html">Tabs</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/carrousel.html">Carrousel</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/accordion.html">Accordion</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/tabs.html">Tabs</a>
-          </li>
+      <h1 class="mt-4 text-center" class="titulo">Bienvenido a mi pagina Web</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corporis veniam saepe, veritatis alias
+        voluptates unde velit iusto officiis molestiae amet delectus aliquid ipsum officia nihil harum at, quia
+        doloremque?</p>
+    </div>
 
-          <li class="nav-item">
-            <a class="nav-link" href="./pages/carrousel.html">Carrousel</a>
-          </li>
-        </ul>
+    <div class="container">
+      <div>
+        <div class="carousel-item active">
+          <img src="./img/home.jpg" alt="Imagen 1" class="d-block w-100">
+        </div>
+
       </div>
     </div>
-  </nav>
-
-  <!-- Page Content -->
-  <div class="container">
-    <h1 class="mt-4 text-center">Bienvenido a mi pagina Web</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corporis veniam saepe, veritatis alias
-      voluptates unde velit iusto officiis molestiae amet delectus aliquid ipsum officia nihil harum at, quia
-      doloremque?</p>
-  </div>
-
-  <div class="container">
-    <div>
-      <div class="carousel-item active">
-        <img src="./img/home.jpg" alt="Imagen 1" class="d-block w-100">
-      </div>
-
-    </div>
-  </div>
   </div>
   <!-- Carrusel de imágenes -->
 
@@ -66,13 +67,19 @@
     <p class="text-center">Aquí encontrarás información sobre nuestros productos y servicios.</p>
   </div>
 
-  <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted">
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-      © 2023 Copyright:
-      <a class="text-reset fw-bold" href="https://google.com/">ProgI</a>
-    </div>
-  </footer>
+
+  </div>
+
+  <div class="footer">
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="https://google.com/">ProgI</a>
+      </div>
+    </footer>
+
+  </div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
